@@ -3,3 +3,33 @@ Supervised Learning: 데이터에 정답이 있고 정답예측 모델 만들 �
 Unsupervised Learning: 데이터에 정답이 없네 컴퓨터야 니가 알아서 분류좀
 Reinforcement Learning: 게임가르친다 생각 (강화학습)
 
+Neural Network
+feature extraction: 특성추출
+
+Loss function: 손실함수
+
+Activation Function: 활성함수
+hyperbolic tangent
+sigmoid
+softmax
+rectified linear
+
+w값을 찾는법
+Gradient descent: 경사하강법
+현재 w값에서 접선의 기울기(w의 변화가 총손실E에 얼마나 큰 영향을 끼치나 > 편미분)를 뺀다
+
+local minima 방지
+learning rate * 기울기를 뺀다
+
+learning rate optimizer
+Learning rate 구하는 알고리즘
+Momentum: 가속도 유지
+AdaGrad: 자주변하는 w는 작게, 자주변하면 크게
+RMSprop: AdaGrad인데 제곱함
+AdaDelta: AdaGrad인데 a 너무 작아져서 학습 안되는걸 방지
+Adam: RMSprop + Momentum
+
+
+
+
+
