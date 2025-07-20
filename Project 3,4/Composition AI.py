@@ -40,3 +40,5 @@ model.compile(loss='categorical_crossentropy',optimizer='adam',metrics=['accurac
 model.fit(trainX,trainY,batch_size=64,epochs=60,verbose=2) # 64가 데이터를 학습한 후 w값 업데이트
 
 model.save('Project 3,4/model1.keras')
+
+
