@@ -4,8 +4,6 @@ import numpy as np
 
 (trainX, trainY), (testX, testY) = tf.keras.datasets.fashion_mnist.load_data()
 
-
-
 # print(trainX[0])
 # print(trainX.shape())
 
@@ -14,8 +12,6 @@ testX = testX / 255.0
 
 trainX = trainX.reshape((trainX.shape[0],28,28,1))
 testX = testX.reshape((testX.shape[0],28,28,1))
-
-
 
 class_names = ['T-shirt/top','Trouser','Pullover','Dress','Coat','Sandal','Shirt','Sneaker','Bag','Ankle boot']
 

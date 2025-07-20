@@ -1,0 +1,10 @@
+simple RNN의 문제: Diminishing Gradient 
+뒤의 레이어로 갈수록 처음 레이어의 비중이 적어짐
+
+simple RNN의 대체: LSTM (Long Short Term Memory)
+output이 2개
+cell state 장기기억 CS
+hidden state 
+forget gate: 안중요해보이는 정보를 지우는 곳
+input gate: 중요해보이는 정보 장기기억으로 보내는 곳
+output gate: hidden state를 연산하는 곳
