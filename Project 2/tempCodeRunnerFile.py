@@ -1,1 +1,0 @@
-inception_model.get.layer('mixed7')
