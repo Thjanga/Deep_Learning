@@ -1,4 +1,4 @@
-# Deep Learning Projects
+# Deep Learning
 
 **딥러닝 이론부터 TensorFlow/Keras 기반의 다양한 프로젝트** 학습
 
